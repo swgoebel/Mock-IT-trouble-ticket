@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html> 
+ <head> 
+ <title>Home</title> 
+     <meta charset="UTF-8" />
+
+   <link href="styles.css" type="text/css" rel="stylesheet" />
+ </head> 
+ <body>
+ <div class="main">
+
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo"><h1><a href="Index.html">Jade Arrow Help Desk</a></h1></div>
+    </div>
+  </div>
+ 
+ <div class="menu_nav">
+    <div class="menu_nav_resize">
+ <ul>
+ 
+		 <li><a href="index.html">Home</a></li>
+		  <li><a href="incident.html">Incident</a></li>
+		          <li class="active"><a href="search.html">Search</a></li>
+		 		 <li><a href="report.html">Reporting</a></li>
+</ul>
+</div>
+</div>
+<br>
+
+<div class="content">
+<div class="content_resize">
+
+ <h1>Search</h1>
+ 
+ 
+ <form name="form3" method="get" action="search.php">
+   <table class="table1">
+ <tr>
+
+ <td>
+ <table class="table2">
+ <tr>
+ <td colspan="3"><strong>Search</strong></td>
+ </tr>
+ <tr>
+
+ <td>Status</td>
+ <td><input list="status" type="text" id="status_id"></td>
+  <datalist id="status">
+   <option value="Open">
+   <option value="Pending">
+   <option value="Closed">
+ </datalist>
+ 
+
+ <td>Ticket ID</td>
+ <td>:</td>
+ <td><input name="ticket_id" type="text" id="ticket_id"></td>
+
+ </tr>
+
+  </br>
+ <tr>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ <td><input type="submit" name="Submit" value="Submit"></td>
+  
+ </tr>
+ 
+ </table>
+ </td>
+
+ </tr>
+ </table>
+</form>
+ 
+ 
+ 
+ 
+ 
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <ul class="fmenu">
+		 <li><a href="index.html">Home</a></li>
+		  <li><a href="incident.html">Incident</a></li>
+		          <li class="active"><a href="search.html">Search</a></li>
+		 		 <li><a href="report.html">Reporting</a></li>
+      </ul>
+      <div class="clr"></div>
+    </div>
+  </div>
+  </div>
+ </body> 
+ </html>

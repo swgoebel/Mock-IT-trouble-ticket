@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html> 
+ <head> 
+ <title>Login</title> 
+     <meta charset="UTF-8" />
+
+   <link href="styles.css" type="text/css" rel="stylesheet" />
+ </head> 
+ <body>
+ <div class="main">
+
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo"><h1><a href="Index.html">Jade Arrow Help Desk</a></h1></div>
+    </div>
+  </div>
+ 
+ <div class="menu_nav">
+    <div class="menu_nav_resize">
+ <ul>
+ 
+         <li class="active"><a href="index.html">Login</a></li>
+
+</ul>
+</div>
+</div>
+<br>
+
+<div class="content">
+<div class="content_resize">
+ 
+ 
+ <form name="form1" method="post" action="checklogin.php">
+ <table class="table1">
+ <tr>
+
+ <td>
+ <table class="table2">
+ <tr>
+ <td colspan="3"><strong>Member Login </strong></td>
+ </tr>
+ <tr>
+ <td>Username</td>
+ <td>:</td>
+ <td><input name="myusername" type="text" id="myusername"></td>
+ </tr>
+ <tr>
+ <td>Password</td>
+ <td>:</td>
+ <td><input name="mypassword" type="text" id="mypassword"></td>
+ </tr>
+  <tr>
+ 
+ <td></td>
+ <input type="radio" name="user" value="User" checked="checked"/>User
+ <br>
+ <input type="radio" name="user" value="Representative"/>Tech
+ </tr>
+ <tr>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ <td><input type="submit" name="Submit" value="Login"></td>
+ </tr>
+ </table>
+ </td>
+
+ </tr>
+ 
+ </table>
+ </form>
+ 
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <div class="clr"></div>
+    </div>
+  </div>
+  </div>
+ </body> 
+ </html>
