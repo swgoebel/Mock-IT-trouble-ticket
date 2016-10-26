@@ -59,7 +59,7 @@ $keywords = ($_POST['keyword']);
 	
 		// Connect to MySQL
          if ( !( $database = mysql_connect( "dev.cictspace.net", 
-            "SGOEBE8199", "GeorgeWashington" ) ) )
+            "Admin", "Password" ) ) )
             die( "Could not connect to server" );
    
          // open Jade Arrow database
