@@ -52,14 +52,14 @@ $user_id = ($_SESSION['user_id']);
 	$problem = software;
 	}
 
-         $username = ($_POST['SGOEBE8199']); //added this line to assign the username to a local variable
-         $password = ($_POST['GeorgeWashington']); //added this line to assign the password to a local variable
+         $username = ($_POST['Admin']); //added this line to assign the username to a local variable
+         $password = ($_POST['Password']); //added this line to assign the password to a local variable
        
 	 $id_query = "SELECT ticket_id from Ticket ORDER BY ticket_id DESC LIMIT 0,1";//This gets the highest id number
          
 	// Connect to MySQL
          if ( !( $database = mysql_connect( "dev.cictspace.net", 
-            "SGOEBE8199", "GeorgeWashington" ) ) )
+            "Admin", "Password" ) ) )
             die( "Could not connect to server" );
    
          // open Jade Arrow database
