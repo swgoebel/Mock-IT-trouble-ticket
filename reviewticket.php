@@ -37,7 +37,7 @@ $representative_id = ($_POST['representative_id']);
 
 		// Connect to MySQL
          if ( !( $database = mysql_connect( "dev.cictspace.net", 
-            "SGOEBE8199", "GeorgeWashington" ) ) )
+            "Admin", "Pass" ) ) )
             die( "Could not connect to server" );
    
          // open Jade Arrow database
