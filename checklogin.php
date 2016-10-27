@@ -7,7 +7,7 @@ $tbl_name=$_POST['user']; // Table name
 
 		// Connect to server and select databse.
          if ( !( $database = mysql_connect( "dev.cictspace.net", 
-            "SGOEBE8199", "GeorgeWashington" ) ) )
+            "Admin", "Pass" ) ) )
             die( "Could not connect to server" );
          
 		 // open Jade Arrow database
