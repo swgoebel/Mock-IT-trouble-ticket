@@ -25,7 +25,7 @@ $ticket_id = ($_POST['ticket_id']);
 	$keyword_query = "SELECT keywords FROM Ticket WHERE ticket_id='$ticket_id';";
 		// Connect to MySQL
          if ( !( $database = mysql_connect( "dev.cictspace.net", 
-            "Admin", "Password" ) ) )
+            "Admin", "Pass" ) ) )
             die( "Could not connect to server" );
    
          // open Jade Arrow database
